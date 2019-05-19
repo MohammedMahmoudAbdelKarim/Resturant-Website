@@ -1,0 +1,126 @@
+@media screen and (min-width : 641px) and (max-width : 1023px) {
+/* ---------------- Index Page ---------------*/
+/* Header Section */
+    
+    header .head {
+        text-align: center;
+    }
+    header ul {
+        margin-top: 10px;
+    }
+    header ul li {
+        display: block;
+        background: rgba(102,125,63,.8);
+        padding: 10px 20px;
+        margin: 5px 5px;
+    }
+    header ul li:hover::after , header ul .active::after {
+    display: none;
+    }
+    header ul li:hover , header ul li:hover a{
+        background: #d18941;
+        color: #fff;
+    }  
+    header main .item-text p {
+        font-size: .7em;
+        margin: 0 0 50px 0;
+        line-height: 15px;
+    }
+    /* About Section */
+     #about .three-grid {
+        grid-template-columns: 33.3% 33.3% 33.3%;
+    }
+    #about .about-item .img-about {
+        height: 150px;
+    }
+    #about .about-text p {
+        font-size: .5em;
+        height: 150px;
+    }
+    #about .about-text button {
+        width: 150px;
+        margin: 0 20px;
+        padding: 15px;
+    }
+    #about .about-icon {
+    margin: 55px auto;
+    height: 50px;
+    }
+    /* News Section */
+    #news .news-img {
+        width: 225px;
+        height: 225px;
+        margin: 55px 0;
+    }
+    #news .news-text , #news .ntext  {
+        padding: 0 20px;
+    }
+    /* Brands Section */
+    #brands .flex-brand {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;     
+}
+    /* Footer Section */
+    footer .contact-img {
+        margin-bottom: 50px;
+    }
+    footer .two-grid {
+        grid-template-columns: 1fr;
+    }
+  /* ---------------- Blog Page --------------*/
+    #food .food-grid {
+    grid-template-columns: 30% 76%;
+}
+    #food button {
+        width: 100px;
+        font-size: .9em;
+    }
+    #food .picks .veg-text {
+        font-size: .6em;
+    }
+    #food .main-blog .potato {
+        padding: 40px 0;
+        width: 100%;
+    }
+    #food .main-blog .potato .alert {
+        width: 80%;
+        font-size: .9em;
+    }
+    #food .main-blog .two-grid {
+        grid-template-columns: 1fr .1fr 1fr;
+    } 
+    #food .main-blog .menu-txt {
+        font-size: .7em;
+    }
+    #food .main-blog .menu-txt .comment ,.soc-link {
+        font-size: 10px;
+    }    
+    #food .main-blog .arr-right {
+    right: -18px;
+}
+    #food .main-blog .arr-left {
+    left: -17px; 
+}
+    #food .main-blog .arr-right::after {
+    content: "";
+    display: block;
+    background: #dbd9d9;
+    width: 3px;
+    height: 3px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+    #food hr {
+        height: 1133px;
+    }
+    #food .main-blog .menu-txt .soc-link .fab , #food .main-blog .menu-txt .soc-link .fa-rss {
+    border: 1px dotted #b0b0b0;
+    color: #b0b0b0;
+    padding: 2px;
+    border-radius: 50%;
+    margin: 0 2px;
+        font-size: 8px;
+}
+    
+}
